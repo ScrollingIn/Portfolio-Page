@@ -31,6 +31,8 @@ header.style.fontSize = "40px";
 header.style.paddingTop = "15px";
 div2.appendChild(header);
 
+
+
 let navbar = document.createElement('div');
 navbar.id = "navbar";
 navbar.style.backgroundColor = "black";
@@ -41,8 +43,14 @@ navbar.style.flexWrap = "nowrap";
 navbar.style.justifyContent = "space-between";
 document.body.appendChild(navbar);
 
+//This is the green bar under the navbar
+let greenbar = document.createElement('div');
+greenbar.style.height = "20px";
+greenbar.style.backgroundColor = "green";
+document.body.appendChild(greenbar);
+
 let nav1 = document.createElement('a');
-nav1.href = "index.html";
+nav1.href = "#Home";
 nav1.id = "home";
 nav1.innerHTML = "Home";
 nav1.style.width = "16%";
@@ -102,6 +110,12 @@ nav6.style.paddingTop = "6px";
 navbar.appendChild(nav6);
 
 let homediv = document.createElement('div');
+homediv.id = "homediv";
 homediv.style.display = "block";
 homediv.innerHTML = "this is the home section";
 document.body.appendChild(homediv);
+
+let aboutdiv = document.createElement('div');
+aboutdiv.id = "aboutdiv";
+aboutdiv.style.display = "none";
+document.body.appendChild(aboutdiv);
