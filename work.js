@@ -3,11 +3,6 @@ document.getElementById('work').addEventListener('click',function(){
     btdiv.innerHTML = "hello there";
 })
 
-
-
-
-
-
 // let spheres = document.getElementById('spheres');
 // spheres.style.display = "none";
 
