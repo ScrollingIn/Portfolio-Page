@@ -11,7 +11,16 @@
 }
 
 #navbar a:hover {
-  color: red;
-  background-color: #141414;
+  color: #f6c81d;
+  text-decoration: underline;
+}
+
+#worknav a:visited, a:link, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+#worknav a:hover {
+  color: #f6c81d;
   text-decoration: underline;
 }
