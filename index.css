@@ -4,23 +4,94 @@
   margin: 0;
 }
 
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("headerbg.jpg");
+  background-size: no-repeat cover;
+}
+
+#head {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: transparent;
+  color: white;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#title {
+  height: 100px;
+  width: inherit;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-size: 30px;
+  align-content: center;
+}
+
+#navbar {
+  background-color: transparent;
+  height: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.navbut {
+  width: 20%;
+  height: 40px;
+  padding-top: 6px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
 #navbar a:visited, a:link, a:active {
   color: white;
-  background-color: black;
+  background-color: transparent;
   text-decoration: none;
 }
 
 #navbar a:hover {
-  color: #f6c81d;
-  text-decoration: underline;
-}
-
-#worknav a:visited, a:link, a:active {
   color: black;
-  text-decoration: none;
+  background-color: white;
+  text-decoration: underline;
 }
 
-#worknav a:hover {
-  color: #f6c81d;
-  text-decoration: underline;
+#bar1 {
+  background-color:black;
+  height: 20px;
+  width: 100%
+}
+
+#homediv {
+  display: block;
+  height: 100%;
+}
+
+#aboutdiv {
+  display: hidden;
+  height: 100%;
+}
+
+#workdiv {
+  display: hidden;
+  height: 100%;
+}
+
+#codesdiv {
+  display: hidden;
+  height: 100%;
+}
+
+#resumediv {
+  display: hidden;
+  height: 100%;
 }
